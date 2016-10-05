@@ -1,0 +1,418 @@
+<impress>
+  <increment x="1000" y="1000" angle="45" length="5"/>
+  <title/>
+  <style/>
+  <step id="page1">
+    <div style="position: absolute;left:5%;top:64%">
+      <p>Conteneurs / Présentation</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%" class="P1 term"/>
+    <div style="position: absolute; left:7%;top:24%;width:88%" class="P2 term">
+      <img src="Pictures/10000201000002AA000000A3CE4BC6F92EC13818.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page2">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Linkbynet</p>
+    </div>
+    <div style="position: absolute; left:7%;top:20%;width:14%" class="P2 term">
+      <img src="Pictures/10000201000001720000017244FBBE2562CBB590.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:17%;top:52%;width:78%" class="P2 term">
+      <img src="Pictures/100002010000027F00000106CB9842DFFD899485.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:29%;top:18%;width:65%" class="P2 term">
+      <img src="Pictures/1000020100000C87000005495453A0D3805F81F8.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page3">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Démarrage | pour tantôt</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <list-header>
+          <p/>
+        </list-header>
+        <li>
+          <p>Osx :</p>
+          <p>https://docs.docker.com/docker-for-mac/</p>
+          <p/>
+        </li>
+        <li>
+          <p>Windows : (win10+hyperV) 180Mo</p>
+          <p>
+            <a>https://docs.docker.com/engine/installation/windows/</a>
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute;left:5%;top:53%">
+      <ul>
+        <list-header>
+          <p>Pas à jour :</p>
+          <p>
+            <a>https://www.docker.com/products/docker-toolbox</a>
+          </p>
+        </list-header>
+        <li>
+          <p>https://www.katacoda.com/courses/docker-orchestration/playground</p>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute;left:51%;top:23%"/>
+  </step>
+  <step id="page4">
+    <div style="position: absolute;left:5%;top:3%"/>
+    <div style="position: absolute;left:5%;top:23%"/>
+    <div style="position: absolute;left:51%;top:23%"/>
+    <div style="position: absolute;left:51%;top:53%"/>
+  </step>
+  <step id="page5">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Optimiser le Code</p>
+    </div>
+    <div style="position: absolute;left:65%;top:23%">
+      <ul>
+        <li>
+          <p>Impartition ?</p>
+        </li>
+        <li>
+          <p>Cloud ?</p>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute; left:4%;top:31%;width:19%" class="P2 term">
+      <img src="Pictures/100002010000014A00000166B821A44D255EEEB8.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:13%;top:46%;width:18%" class="P2 term">
+      <img src="Pictures/100002010000014100000148C422CD9DDD97705D.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:7%;top:57%;width:17%" class="P2 term">
+      <img src="Pictures/10000201000001330000014E837DFF9F90049FDF.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:39%;top:37%;width:14%" class="P2 term">
+      <img src="Pictures/100002010000010800000161286ADC3603241654.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:46%;top:52%;width:14%" class="P2 term">
+      <img src="Pictures/10000201000001070000013F8405998B8B0D03CB.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:21%;top:47%;width:26%" class="P2 term">
+      <img src="Pictures/100002010000021200000226FEA226DC45BE7F18.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:33%;top:27%;width:6%" class="P2 term">
+      <img src="Pictures/10000201000000A300000165EE96EB5B285C514C.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:24%;top:23%;width:6%" class="P2 term">
+      <img src="Pictures/10000201000000A300000165EE96EB5B285C514C.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:27%;top:29%;width:6%" class="P2 term">
+      <img src="Pictures/10000201000000A300000165EE96EB5B285C514C.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page6">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Acceleration de la technologie</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>Physique | PowerVm</p>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute;left:51%;top:23%">
+      <ul>
+        <li>
+          <p>Logique </p>
+          <ul>
+            <li>
+              <p>Qemu </p>
+            </li>
+            <li>
+              <p>Xen</p>
+            </li>
+            <li>
+              <p>Vmware</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute; left:0%;top:54%;width:106%" class="P2 term">
+      <img src="Pictures/1000020100000258000000D5508ADFA615ED8864.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page7">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Conteneurs</p>
+    </div>
+    <div style="position: absolute; left:20%;top:30%;width:14%" class="P2 term">
+      <img src="Pictures/100002010000010800000161286ADC3603241654.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:3%;top:26%;width:19%" class="P2 term">
+      <img src="Pictures/100002010000014A00000166B821A44D255EEEB8.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:12%;top:41%;width:18%" class="P2 term">
+      <img src="Pictures/100002010000014100000148C422CD9DDD97705D.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:6%;top:52%;width:17%" class="P2 term">
+      <img src="Pictures/10000201000001330000014E837DFF9F90049FDF.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:26%;top:46%;width:14%" class="P2 term">
+      <img src="Pictures/10000201000001070000013F8405998B8B0D03CB.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:47%;top:65%;width:55%" class="P2 term">
+      <img src="Pictures/1000020100000442000001C7B0E51971AEAE47B7.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:18%;top:65%;width:30%" class="P2 term">
+      <img src="Pictures/10000201000001F4000001F43D0724F6EFFAB148.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page8">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Virtualisation / Conteneurs</p>
+    </div>
+    <div style="position: absolute;left:54%;top:19%">
+      <ul>
+        <li>
+          <p>Même matériel</p>
+        </li>
+        <li>
+          <p>Même OS</p>
+        </li>
+        <li>
+          <p>1 seule chose</p>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute; left:5%;top:40%;width:90%" class="P2 term">
+      <img src="Pictures/100002010000026A0000011A66425C81A2129738.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute;left:6%;top:19%">
+      <ul>
+        <li>
+          <p>Sur Couche</p>
+        </li>
+        <li>
+          <p>Problème HW</p>
+        </li>
+      </ul>
+    </div>
+  </step>
+  <step id="page9">
+    <div style="position: absolute;left:5%;top:3%"/>
+    <div style="position: absolute;left:5%;top:23%"/>
+  </step>
+  <step id="page10">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Quels ingrédients ?</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>Des fichiers</p>
+        </li>
+        <li>
+          <p>Cloisonner les processus</p>
+        </li>
+        <li>
+          <p>Isoler les réseaux</p>
+        </li>
+        <li>
+          <p>Simplifier le management</p>
+        </li>
+      </ul>
+    </div>
+  </step>
+  <step id="page11">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Technique du Chroot</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%" class="P6 term">
+      <ul>
+        <list-header>
+          <p>mkdir /tmp/test</p>
+          <p>cd !$</p>
+          <p>mkdir {bin,sbin,proc,etc}</p>
+          <p>cp /bin/busybox!$</p>
+          <p>chroot /tmp/test /busybox –install</p>
+          <p>chroot /tmp/test /bin/sh</p>
+          <p/>
+          <p/>
+          <p/>
+        </list-header>
+      </ul>
+    </div>
+    <div style="position: absolute;left:62%;top:23%">
+      <ul>
+        <li>
+          <p>Espace de fichiers séparés</p>
+          <p/>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute;left:63%;top:53%">
+      <ul>
+        <li>
+          <p>Root !</p>
+        </li>
+        <li>
+          <p>Ressources partagées</p>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute; left:56%;top:20%;width:8%" class="P2 term">
+      <img src="Pictures/100002010000010000000100617665766562EF75.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:56%;top:50%;width:8%" class="P2 term">
+      <img src="Pictures/1000020100000100000001002078CFD834642E01.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page12">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>OMG | linux ?</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <list-header>
+          <p>PID namespace </p>
+        </list-header>
+        <li>
+          <p>Net namespace | des réseaux privées</p>
+        </li>
+        <li>
+          <p>UTS namespace</p>
+        </li>
+        <li>
+          <p>Mount namespace</p>
+        </li>
+        <li>
+          <p>IPC namespace</p>
+          <p>Cgroup </p>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute; left:8%;top:72%;width:20%" class="P2 term">
+      <img src="Pictures/10000201000001000000010016382C90644E66CB.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page13">
+    <div style="position: absolute; left:3%;top:1%;width:95%" class="P2 term">
+      <img src="Pictures/10000201000003C0000002D05FDADE297E879376.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page14">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Mon premier container</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>Simple</p>
+          <p>docker run -it alpine</p>
+          <p>docker run -it debian</p>
+          <p/>
+        </li>
+        <li>
+          <p>Plus complexe [ avec interactions]</p>
+          <p>docker run -it -p8080:80 owncloud</p>
+          <p>docker run -it -v /tmp:/tmp debian ls</p>
+          <p/>
+        </li>
+        <li>
+          <p>Encore plus</p>
+          <p>docker run -it -v etc:/root/elt –name dd debian</p>
+          <p>docker run -it -v etc:/root/elt --link dd:other debian</p>
+          <p/>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute;left:51%;top:23%">
+      <ul>
+        <list-header>
+          <p>Sur les systèmes autres que linux, les echanges sont plus complexes à cause de la couche de virtualisation</p>
+        </list-header>
+      </ul>
+    </div>
+  </step>
+  <step id="page15">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>DockerFile</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>La recette pour construire votre <span>container</span>.</p>
+        </li>
+        <li>
+          <p>Important pour réutiliser l’existant</p>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute;left:5%;top:53%" class="P7 term">
+      <ul>
+        <list-header>
+          <p>FROM debian</p>
+          <p>RUN apt-get update</p>
+          <p>RUN apt-get install -y ssh</p>
+        </list-header>
+      </ul>
+    </div>
+    <div style="position: absolute;left:51%;top:23%"/>
+  </step>
+  <step id="page16">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Docker Hub</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <list-header>
+          <p>Un annuaire avec des conteneurs</p>
+          <p>http://hub.docker.com</p>
+          <p/>
+          <p>docker search / docker pull</p>
+          <p>docker run -d -p 8080:80 owncloud </p>
+        </list-header>
+      </ul>
+    </div>
+    <div style="position: absolute; left:43%;top:19%;width:53%" class="P2 term">
+      <img src="Pictures/1000020100000426000002EB0BE3F1205E38DDF1.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:43%;top:72%;width:52%" class="P2 term">
+      <img src="Pictures/1000020100000CB40000040C48E80688E6C34414.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page17">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Orchestration</p>
+    </div>
+    <div style="position: absolute; left:4%;top:23%;width:82%" class="P2 term">
+      <img src="Pictures/100002010000075F000003D9800C6020FBEDD081.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute;left:0%;top:78%">
+      <ul>
+        <list-header>
+          <p>docker swarm init</p>
+          <p>docker swarm join</p>
+        </list-header>
+        <li>
+          <p>https://embedwistia-a.akamaihd.net/deliveries/2a0f6a5e1b77423d85b501aea668b664d4609b1f/file.mp4</p>
+        </li>
+      </ul>
+    </div>
+  </step>
+  <step id="page18">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Questions</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <list-header>
+          <p>Have fun !!</p>
+          <p>Merci</p>
+        </list-header>
+      </ul>
+    </div>
+  </step>
+</impress>
