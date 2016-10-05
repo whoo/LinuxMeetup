@@ -1,0 +1,11 @@
+--2016-05-27 23:48:32--  http://coreight.com/sites/default/files/internet-reseau.jpg
+Resolving coreight.com... 92.243.29.83
+Connecting to coreight.com|92.243.29.83|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 27368 (27K) [image/jpeg]
+Saving to: 'internet-reseau.jpg'
+
+     0K .......... .......... ......                          100% 91.2K=0.3s
+
+2016-05-27 23:48:34 (91.2 KB/s) - 'internet-reseau.jpg' saved [27368/27368]
+

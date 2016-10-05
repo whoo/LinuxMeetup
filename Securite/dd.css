@@ -1,0 +1,228 @@
+#first {
+background: url('images/600.png') no-repeat center white;
+background-size: 100% 100%;
+color: black;
+}
+
+#first img {
+	position: fixed;
+    bottom: 1px;
+    left:1px;
+   border-radius: 10px; 
+   box-shadow: 2px 2px 10px #000;
+}
+
+h1 {
+	font-size:1.5em;
+	margin-bottom: 40px;
+	font-weight: bold;
+    color: black;
+}
+
+b {
+	display: inline-block;
+	-webkit-transition: 0.5s;
+	-moz-transition:    0.5s;
+	-ms-transition:     0.5s;
+	-o-transition:      0.5s;
+	transition:         0.5s;
+}
+
+
+.present b.scaling {
+	-webkit-transform: scale(1.07);
+	-moz-transform:    scale(1.07);
+	-ms-transform:     scale(1.07);
+	-o-transform:      scale(1.07);
+	transform:         scale(1.07);
+
+	-webkit-transition-delay: 3.5s;
+	-moz-transition-delay:    3.5s;
+	-ms-transition-delay:     3.5s;
+	-o-transition-delay:      3.5s;
+	transition-delay:         3.5s;
+}
+
+
+
+.present .red {	color: red;}
+.present .green { color: green; }
+.present .blue { color: blue; }
+.present .blanc {color: white;}
+.present .orange {color: orange;}
+.present .rotate { transition-delay: 1s; transform: rotate(-7deg);}
+
+
+ul {
+	margin-left: 50px;
+	padding-left: 10px;
+	list-style-type: circle;
+}
+
+.term {
+clear: both;
+background-color: black;
+color: white;
+font-family: monospace;
+font-size: 15px;
+margin-bottom: 20px;
+}
+
+pre {
+clear: both;
+background-color: black;
+color: white;
+font-family: monospace;
+font-size: 0.5em;
+line-height: 1.5em;
+padding-left: 10px;
+}
+
+#logique {
+background: url('images/giphy.gif') no-repeat black;
+background-size: 100% 80%;
+background-position: center center;
+
+}
+
+#physique {
+background: url('images/reparation-ordinateur.jpg') no-repeat;
+background-size: 100% 100%;
+color: white;
+}
+
+#physique h1,#logique h1, #network h1, #generic h1
+{
+	color: white;
+}
+
+#power {
+background: url('images/dd.png') no-repeat ;
+background-size: 100% 100%;
+
+}
+
+#Merci {
+background: url('images/rideau.png') no-repeat;
+background-size: 100% 100%;
+color: white;
+font-weight: bold;
+}
+
+#network {
+	background: url('images/internet-reseau.jpg') no-repeat black;
+background-size: 100%  ;
+background-position: center;
+color: white;
+font-weight: bold;
+}
+
+#generic {
+	background: url('images/fond_tableau_noir-1024x725.jpg') no-repeat black;
+background-size: 100%  100%;
+background-position: center;
+color: white;
+font-weight: bold;
+}
+
+
+
+
+video {
+	width:100%;
+	height:100%;
+}
+
+#overview {
+background-color: blue;	
+
+}
+
+.slide {
+background: url('images/fond1.png') no-repeat;
+background-size: 100% 100%;
+color: white;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+10,7db9e8+100&1+10,0+40 */
+}
+
+.caroussel {
+	overflow: hidden;
+
+
+}
+
+
+#caroussel {
+	width: 500px;
+	height: 300px;
+	right: 20px;
+	bottom: 20px;
+		box-shadow: 2px 2px 15px #000;
+	position: fixed;
+}
+
+#caroussel2 {
+	right: 20px;
+	bottom: 20px;
+	box-shadow: 2px 2px 15px #000;
+	position: fixed;
+}
+
+#caroussel3{
+position: relative;
+margin: 150px auto 10px auto;
+	width: 80%;
+	height: 50%;
+	padding: 10px;
+}
+
+#caroussel2, #caroussel2 img {
+width:300px;
+height:200px;
+}
+
+#caroussel img {
+width:500px;
+}
+
+#caroussel3 b {
+	font-size: 2em;
+	margin-top: 40px;
+	padding: 10px;
+}
+
+#caroussel3 li img {
+float: left;
+
+}
+
+.caroussel li{
+	position: absolute;
+	top: 0px;
+	opacity:0;
+	transform: scale(0);
+	transition: 1s;
+	list-style: none;
+}
+
+.caroussel li.current {
+top: 0px;
+opacity: 1;
+transform: scale(1) ;
+transition: 1s;
+}
+
+
+
+
+.hint { width:100%; visibility: block}
+
+.foot {
+font-size: 0.7em;
+font-style: Italic;
+position: fixed;
+bottom: 5px;
+right: 5px;
+width:250px;
+border-top: solid 1px #FFF;
+}

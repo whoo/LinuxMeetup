@@ -1,0 +1,21 @@
+dd if=/dev/zero of=image bs=1M count=10
+mkfs.ext4 image
+mount image /mnt/target
+lsblk
+echo "Super Secret" >  /mnt/target/secret
+umount /mnt/target
+strings image
+
+dd if=/dev/zero of=image bs=1M count=10
+cryptsetup luksFormat image
+cryptsetup luksOpen image Crypt
+mkfs.ext4 /dev/mapper/Crypt
+mount /dev/mapper/Crypt /mnt/target
+lsblk 
+echo "Super Secret" >  /mnt/target/secret
+umount /mnt/target
+cryptsetup luksClose Crypt
+strings image | grep secret
+strings image 
+
+

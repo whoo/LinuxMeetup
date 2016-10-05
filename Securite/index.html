@@ -1,0 +1,399 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Securité | Linux </title>
+
+    <meta name="description" content="impress.js for Meetup" />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="dd.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+  <div id="first" class="step slide" data-x=0 data-y=0 >
+  	    <q><h1>Securité: <h1><h2>facile avec Linux</h2></q>
+  	    <span>.:DD:. | Linux Meetup</span><br>
+  	    <img  src=images/photo-Dominique-225x300.jpg>
+  </div>
+  <div id=generic class="step slide" data-x=0 data-y=-1000 data-rotate=90>
+    <h1>Avant de commencer</h1>
+    <p> informations <b class="scaling green">essentielles</b></p>
+   
+  <div class=caroussel id=caroussel3>
+      <ol>
+        <li><img src=images/Icons/clock.png><b>Disponibilité</b><br></li>
+        <li><img src=images/Icons/computer.png><b>Intégrité</b></li>
+        <li><img src=images/Icons/keys.png><b>Confidentialité</b></li>
+        <li><img src=images/Icons/starred.png><b>Pas de magie</b></li>
+        <li><img src=images/Icons/three.png><b>Compréhension</b></li>
+      </ol>
+    </div>
+   
+  </div>
+  <div id=warn class="step slide" data-x=500 data-y=-2000 data-scale=0.7 data-rotate=90>
+      <q style="position: fixed; color:white">Attention, aux doigts !</q>
+  	  <video loop="loop" autoplay="autoplay" muted="muted" preload="auto"   controls="controls">
+  		    <source type="video/webm" src="images/7Y03id0.webm">
+  		    <source type="video/mp4" src="images/7Y03id0.mp4">
+  	  </video>
+  </div>
+  <div id="hacker" class="step slide" data-x=0 data-y=-2000 data-scale=0.7 data-rotate=90>
+  	  		<h1>Types de hackers</h1>
+  			<table width=100%>
+  		      <tr>
+  			      <td><img src=images/hackers/hacker.png></td>
+  			      <td><img src=images/hackers/etudiant.png></td>
+  			      <td><img src=images/hackers/stats.png></td>
+  			      <td><img src=images/hackers/pigeon.png></td>
+  			      <td><img src=images/hackers/fou.png></td>
+  		      </tr>
+            <tr>
+              <td><b class="scaling red">Mafia</b></td>
+  			      <td><b class="scaling red">Etudiant</b></td>
+  			      <td><b class="scaling red">Etats</b></td>
+  			      <td><b class="scaling blue">Pigeon</b></td>
+  			      <td><b class="scaling blue">Fou</b></td>
+  		      </tr>
+  	     </table>
+         <hr>
+         <p>
+    		    <span style="float:left;font-size:5em;margin-top:50px; width:100px; height: 100px" >{</span>
+    		        Le même <b>objectif</b> devenir <b class=scaling>Root</b>
+    		          <ul>
+                      <li>Etre discret</li>
+    		              <li>Avoir un access demain</li>
+
+    		          </ul>
+                </p>
+  </div>
+  <div class="slide step" data-x=-500 data-y=-2000 data-scale=0.7 data-rotate=90>
+  	    <h1>	Symetrique</h1>
+     		<p>
+  	    <img src=images/secret.jpg style="float:right;width:200px">
+  			Imaginons <b class=scaling> XXX </b> ma boite magique:
+  			<ul>
+  			<li>Quand je donne "secret" à XXX il me retourne "frperg"</li>
+  			<li>Quand je donne "frperg" à XXX il me retourne "secret"</li>
+  			<li>On se partage le secret XXX</li>
+  		</ul>
+  		</p>
+  		<p class=term>
+  		echo "secret" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+  		</p>
+      <hr>
+  		<h1>Asymetrique | Alice et Bob</h1>
+  		<p>Clef privée/Clef publique</p>
+      <p>HTTPS | César | PGP | Enigma </p>
+  </div>
+  <div class="slide step" data-x=-1000 data-y=-2000 data-scale=0.7 data-rotate=90>
+  	   <h1>Réseaux</h1>
+  	   
+  	   <img src=images/OSIdetailledNewPage1.png width=100%>
+  	   
+  </div>
+  <div id=network class="slide step" data-x=1000 data-y=0>
+    <h1>Sécurité Réseaux</h1>
+  </div>
+  <div id=netTools class="slide step" data-x=2000 data-y=-500 data-scale=0.7>
+    <h1>Pare-Feu</h1>
+    <ul> 
+    <li><b class="scaling blue">iptables</b> permet de proteger les ports depuis le réseau. Source | Destination | sport | dport | limit</li>
+    <li><b class="scaling blue">snort</b> Detection de schema d'analyse et attaque</li>
+    <li><b>Vpn</b> permet de créer des réseaux privés.</li>
+    </ul>
+    <hr>
+    <p>Un firewall ... il y a deux sens.</p>
+
+  </div>
+
+<div class="slide step" data-x=2000 data-y=0 data-scale=0.7>
+<h1>Exemple iptables</h1>
+<img class="float:left" src=images/iptables.gif>
+
+
+<pre >
+# iptables -A INPUT -m state --state ESTABLISHED,RELATED  -j ACCEPT
+# iptables -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+# iptables -A OUTPUT -p tcp --dports 22,80,443            -j ACCEPT
+# iptables -A OUTPUT -p udp --dports 53                   -j ACCEPT
+
+# iptables -A INPUT   -i lo                               -j ACCEPT
+# iptables -A OUTPUT  -o lo                               -j ACCEPT
+
+# iptables -P INPUT DROP
+# iptables -P OUTPUT DROP
+
+</pre>
+
+</div>
+
+
+  <div id="logique" class="slide step" data-x=0 data-y=1000 data-rotate=-90>
+    <h1 class=Green>Sécurité Logique </h1>
+  </div>
+  <div id="power" class="slide step" data-x=-1000 data-y=2000 data-scale=0.7 data-rotate=-90>
+      <h1>Need Power</h1>
+    	Comment on devient <b class=scaling>Root</b> sur une machine.
+  	<ul>
+  		<li><b class="scaling green">Mot de passe</b> trop simple</li>
+  		<li><b class="scaling blue">Droits</b> sur les fichiers</li>
+  		<li>Escalade de <b class="scaling red">privileges</b></li>
+  		<ul>
+  		<li>Buffer overflow</li>
+  		<li>Mauvaise configuration</li>
+  		</ul>
+  	</ul>
+
+  </div>
+  <div class="slide step" data-x=-500 data-y=2000 data-scale=0.7 data-rotate=-90>
+  	    <h1 class=blanc >Mots de passe</h1>
+  	     <ul>
+         <li>Taille </li>
+         <li>chage</li>
+         <li>pam_cracklib</li>
+         <li>pam_usb</li>
+         </ul>
+         <pre>
+#/etc/pam.d/system-auth
+password required pam_cracklib.so retry=3 minlen=6 difok=3
+#/etc/pam.d/common-password
+lcredit=0 ucredit=1 dcredit=1 ocredit=2
+         </pre>
+         <hr>
+         <pre>
+         `--> sudo LANG=C chage -l dominique
+Last password change                                    : Mar 28, 2015
+Password expires                                        : never
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 0
+Maximum number of days between password change          : 99999
+Number of days of warning before password expires       : 7
+
+
+         </pre>
+
+         
+
+
+  </div>
+  <div class="slide step" data-x=0 data-y=2000 data-scale=0.7 data-rotate=-90>
+    <h1 class=blanc> Droits </h1>
+    <p>
+    Les droits sont importants car sous linux ... tout se trouve sous la forme d'un <b class="scaling orange">fichier</b>.
+      <ul>
+      <li><b class="scaling green">ugo</b> rwxr-xr-x</li>
+      <li>ACL, setfacl, getfacl </li>
+      <li>SeLinux </li>
+      </ul>
+      <hr>
+      <p> 
+      umask (par un fichier est par défaut en 666 ou 777). umask permet de modifier.<br>
+      X(1) - W(2) - R(4)
+            </p>
+
+      
+      <p class=term>
+      umask 022; touch read
+
+      </p>
+      
+      
+    </p>
+  </div>
+  <div class="slide step" data-x=500 data-y=2000 data-scale=0.7 data-rotate=-90>
+    <h1 class=blanc>Attention aux applications </h1>
+    <p>Nous ne maîtrisons pas les applications, l'idée est donc de réduire l'<b class="scaling red">impact</b> est les <b class="scaling orange">possibilités</b>.
+    <ul>
+      <li>Respecter les configurations</li> 
+      <li>Mise à jour | apt/rpm/...|uniquement le nécessaire</li>
+      <li>Limiter les droits des applications</li>
+      <li><b class="blue">Capabilities</b></li>
+      <li><b class="blue">ASLR</b></li>
+      <li>SELinux permet de définir des contextes d'éxecution.</li>
+        <li><b class="green">Virtualisation</b> <a href=images/App/vmDock.png>?</a></li>
+      </ul>
+      <hr>
+      <ul>
+        <li>Cgroup/NameSpace</li>
+        <li>Docker</li>
+        <li>subuser</li>
+        <li>Firejail</li>
+      </ul>
+        </ul>
+        </p>
+        <div id=caroussel2 class=caroussel>
+        <ol>
+
+<li><img src=images/App/docker.jpg></li> 
+<li><img src=images/App/firejail.png></li> 
+<li><img src=images/App/Qemu-logo.png></li> 
+<li><img src=images/App/selinux.png></li> 
+<li><img src=images/App/subuser.png></li> 
+<li><img src=images/App/vmDock.png></li> 
+<li><img src=images/App/xen.png></li> 
+
+        </ol>
+        </div>
+  </div>
+  <div id="physique" class="slide step" data-x=-1000 data-y=0 data-rotate=-180>
+      <h1 >Accès Physique</h1>
+  </div>
+  <div class="slide step" data-x=-2000 data-y=500 data-scale=0.7 data-rotate=-180>
+  		<q>    Accès Physique</q>
+  		<ul>
+  			<li>Securiser l'accès</li>
+        <li><b class="orange">Password</b> Grub</li>
+  			<li><b class="green">Chiffrement</b></li>
+
+  		</ul>
+      <hr>
+      <h2>Grub password</h2>
+      <pre>
+set superusers="John"
+password John foo
+export superusers
+      </pre>
+
+  </div>
+<div class="slide step" data-x=-2000 data-y=0 data-scale=0.7 data-rotate=-180>
+  <h1>LUKS</h1>
+  <p><sub>Linux Unified Key Setup</sub> permet de <b class="scaling">chiffrer</b> les systèmes de fichiers sous linux. <br>
+  En fonction du système proposé, le système demandera une passphrase, ou un fichier de clef.
+  </p>
+  <p class=term>
+  cryptsetup luksFormat -c aes-xts-plain64 -s 512 -h sha512 /dev/sss
+  </p>
+  <a href="Term/Crypt_sample.html">Demo</a>
+
+  <p>
+    Plusieurs clefs/mot de passe, fichier sur une clef usb, ...
+    Il suffit de suppimer les premiers octets du stockage pour rendre inutilisable.
+  </p>
+
+</div>
+
+ 
+
+  <div class="slide step" data-x=-1000 data-y=-1000 data-rotate=135>
+  	    <h1> Comment peut on <b class="scaling green">detecter</b>/<b class="scaling red">Agir</b> ?</h1>
+        <h2>Rechercher</h2>
+  	 <ul>
+      <li>Clamav</li>
+  	  <li>Lynis|ChkrootKit <a href=Term/Lynis.html>Demo</a></li>
+      <li>OpenVas</li>
+      <li>Audit</li>
+     </ul>
+     <h2>Agir</h2>
+    <ul>
+      <li>Ossec</li>
+      <li>FailtoBan</li>
+      <li>DLP</li>
+      <li>Backup</li>
+    </ul>
+    <h2>Visualiser</h2>
+    <ul> 
+      <li>GreyLog | kibana</li>
+      <li>Splunk</li>
+    </ul>
+
+    <div id=caroussel class=caroussel>
+      <ol>
+        <li><img src=images/tools/fail2ban.jpg></li>
+        <li><img src=images/tools/kibana.png ></li>
+        <li><img src=images/tools/ossec.jpg ></li>
+        <li><img src=images/tools/openvas.png></li>
+        <li><img src=images/tools/rkhunter.png></li>
+
+      </ol>
+    </div>
+
+  </div>
+
+  <div id="Merci" class="slide step" data-x=1000 data-y=1000 data-rotate=315 >
+  		<q>Merci</q>
+      <table>
+      <tr>
+      <td>
+  		  <ul>
+    		  <li>Impress.js</li>
+    		  <li>Ruby</li>
+    		  <li>TermRecord</li>
+          <li>Linux</li>
+  		  </ul>
+      </td>
+      <td>
+        <ul>
+        <li>Linux Meetup</li>
+        </ul>
+      </td>
+      </tr>
+      </table>
+
+      <p class=foot>By Dominique</p>
+  </div>
+  <div id="overview" class="step" data-x="0" data-y="0" data-scale="10"> </div>
+</div>
+
+
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+<script>
+var cur=[];
+
+dd=(function(nom){
+items=document.querySelectorAll(nom+' li');
+num=items.length;
+if (document.querySelectorAll(nom+' .current').length<1)
+  {
+  items[0].classList.add('current');
+  cur[nom]=0;
+  }
+  else
+  {
+  document.querySelector(nom+' li.current')
+  .classList.remove('current')
+  items[ cur[nom] ].classList.add('current')
+  }
+cur[nom]=( cur[nom] +1)%(num);
+setTimeout(function(){ dd(nom);} ,5000);
+return true;
+});
+
+dd('#caroussel');
+dd('#caroussel2');
+dd('#caroussel3');
+
+</script>
+
+</body>
+</html>
+
+<!---- Dominique DERRIER ---!>
