@@ -11,6 +11,25 @@
 div.caption p{	min-height: 100px;}
 div.caption a{ margin: 10px auto 5px auto; width: 100%;}
 h3 {color: orange;}
+#loader {
+		padding:0px;
+		top:0px;
+		left:0px;
+    z-index:200;
+    width:100%;
+    height: 100%;
+    position:absolute;
+    display: block;
+		overflow: hidden;
+    background-color: rgba(0,0,0, 0.6);
+}
+
+#loader .caption {
+	margin: 30% auto;
+	width:  45%;
+
+}
+
 </style>
 
 </head>
@@ -22,7 +41,18 @@ h3 {color: orange;}
 </header>
 
 <div class="container-fluid">
-<div id="loader" >Chargement des Presentations ...</div>
+<div id="loader" >
+		<div class="caption">
+			Chargement des Presentations ...
+			<div class="progress">
+  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="0"
+  aria-valuemin="0" aria-valuemax="100" style="width:0%">
+    <span class="sr-only">70% Complete</span></div>
+	</div>
+  </div>
+</div>
+
+
 <div class="row-fluid" id="main"></div>
 </div>
 
@@ -48,10 +78,11 @@ mess=["Apprenez en plus",
 return mess[Math.floor( (Math.random()*10)%mess.length)];
 }
 
-$.getJSON( "info.json" )
+$("#main").hide();
+launch=function() {
+	$.getJSON( "info.json" )
   .done(function( json ) {
 		info=json;
-		$("#loader").hide();
 
 		$.each(json['decks'],function(key,val) {
 			a=$("<div class='col-xs-4' >"+
@@ -73,7 +104,41 @@ $.getJSON( "info.json" )
 			$("#main").append(a);
 		}
 		);
+
+
   });
+};
+
+
+progress=function(){
+console.log("aie");
+var progress_value = parseInt($(".progress-bar").attr('aria-valuenow'))+10;
+
+console.log(progress_value);
+
+if( progress_value<110) {
+	$(".progress-bar").attr("aria-valuenow",progress_value);
+	$(".progress-bar").css("width",progress_value+"%");
+	time=setTimeout(progress, 250);
+}
+
+else {
+	$("#main").show('slow');
+	$("#loader").hide('slow');
+}
+
+
+}
+
+//Load content
+launch();
+// fake progress bar :)
+progress();
+
+//time=setTimeout(launch, 3000);
+
+
+
 });
 </script>
 
