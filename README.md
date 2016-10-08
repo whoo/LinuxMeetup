@@ -1,4 +1,6 @@
 # LinuxMeetup
-Présentation Linux Meetup
+Présentation durant les Linux Meetup Montreal
+(inscrivez vous, venez avec nous : <http://www.meetup.com/Linux-Montreal/>)
 
-https://whoo.github.io/LinuxMeetup
+Pour voir mes présentations, c'est par ici:
+<https://whoo.github.io/LinuxMeetup>
