@@ -1,0 +1,16 @@
+{
+"decks":[
+  {
+    "name":"Docker",
+    "abstract":"Présentation, des contraineurs avec Docker lors du Linux Meetup d'Octobre.",
+    "url":"Docker/#overview",
+    "img":"tumb/Docker.png"
+  },
+  {
+    "name":"Sécurité",
+    "abstract":"Présentation sur la sécurité lors du Linux Meetup.",
+    "url":"Securite/#overview",
+    "img":"tumb/Securite.png"
+  }
+]
+}
