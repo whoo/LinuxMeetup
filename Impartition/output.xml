@@ -1,0 +1,199 @@
+<impress>
+  <increment x="1000" y="1000" angle="45" length="4"/>
+  <title/>
+  <style/>
+  <step id="page1">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Impartition de données</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <p>De gré ou de force </p>
+      <p>
+        <span/>
+      </p>
+    </div>
+    <div style="position: absolute;left:4%;top:84%">
+      <p>
+        <span>L’accélération technologique nous ouvre la porte des nuages.</span>
+      </p>
+    </div>
+    <div style="position: absolute;left:51%;top:23%"/>
+  </step>
+  <step id="page2">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Menu</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>Toujours dans la course</p>
+        </li>
+        <li>
+          <p>Les obligations du digital</p>
+        </li>
+        <li>
+          <p>La voix maitrisée</p>
+        </li>
+      </ul>
+    </div>
+  </step>
+  <step id="page3">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>3,2,1 …. Go</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>+25 % par an sur Cloud (!?#~)</p>
+        </li>
+        <li>
+          <p>L’informatique est incontournable</p>
+          <ul>
+            <li>
+              <p>100M d’acheteurs en VR</p>
+            </li>
+            <li>
+              <p>30 % de navigation sans écran</p>
+            </li>
+            <li>
+              <p>Assistant virtuel</p>
+            </li>
+            <li>
+              <p>40 % un capteur<tab/></p>
+            </li>
+            <li>
+              <p>6,58 Iot par personne (x2)</p>
+              <p/>
+            </li>
+          </ul>
+          <p/>
+          <p/>
+        </li>
+      </ul>
+    </div>
+  </step>
+  <step id="page4">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Statistiques</p>
+    </div>
+    <div style="position: absolute; left:3%;top:26%;width:43%" class="P2 term">
+      <img src="Pictures/10000201000002580000019F21998DC3DD3688D9.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:32%;top:40%;width:58%" class="P2 term">
+      <img src="Pictures/100002010000021C00000184B67B5A2C481CA4B2.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page5">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Obligations | Technologiques</p>
+    </div>
+    <div style="position: absolute; left:73%;top:52%;width:15%" class="P2 term">
+      <img src="Pictures/100002010000009400000093F973DA5D8E9B18CD.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:73%;top:73%;width:15%" class="P2 term">
+      <img src="Pictures/10000201000006CC000006CC881DA2EC3ACAF238.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:19%;top:52%;width:15%" class="P2 term">
+      <img src="Pictures/100002010000012C0000012CB4A527227A28BC83.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:19%;top:73%;width:15%" class="P2 term">
+      <img src="Pictures/10000201000001490000014890B594CF7AED02C7.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:37%;top:73%;width:15%" class="P2 term">
+      <img src="Pictures/1000020100000299000002986805DFBB5B54ACB9.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:55%;top:52%;width:15%" class="P2 term">
+      <img src="Pictures/10000201000000FB000000FB2FE4FD25964D3515.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:55%;top:73%;width:15%" class="P2 term">
+      <img src="Pictures/100002010000012C0000012C8EF1B712180E9AB8.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:37%;top:52%;width:15%" class="P2 term">
+      <img src="Pictures/10000201000002370000023723266A8D6F08A681.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:13%;top:21%;width:17%" class="P2 term">
+      <img src="Pictures/100002010000011B0000011B7A8D5C3221239A7C.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:35%;top:21%;width:17%" class="P2 term">
+      <img src="Pictures/10000201000001050000010B75A37E97141B0D07.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:56%;top:21%;width:17%" class="P2 term">
+      <img src="Pictures/10000201000001ED000001F458D76FC98BD679A8.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:77%;top:21%;width:17%" class="P2 term">
+      <img src="Pictures/100002010000012700000127BC6232B3EC491EDF.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page6">
+    <div style="position: absolute;left:5%;top:3%">
+      <p><span>Veut</span>|<span>Peut</span>|<span>Sait</span> pas &gt; Impartition</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <list-header>
+          <p>La question qui doit faire penser à une externalisation du traitement.</p>
+          <p><span>Impartir</span> vs <span>débarrasser</span> vs <span>confiance</span></p>
+        </list-header>
+      </ul>
+    </div>
+    <div style="position: absolute;left:5%;top:53%">
+      <ul>
+        <list-header>
+          <p>1- Contrats | SLA | pénalités</p>
+          <p>2- Obligation de résultats</p>
+          <p>3- Reversibilité</p>
+          <p>4- Gouvernance</p>
+        </list-header>
+      </ul>
+    </div>
+    <div style="position: absolute; left:63%;top:51%;width:11%" class="P2 term">
+      <img src="Pictures/100002010000010000000100E8D631428B4374AC.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:76%;top:50%;width:12%" class="P2 term">
+      <img src="Pictures/1000020100000200000002002D6577C438C4C711.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:62%;top:70%;width:12%" class="P2 term">
+      <img src="Pictures/100002010000012C0000012CBF758FE7FE2424F7.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:77%;top:72%;width:11%" class="P2 term">
+      <img src="Pictures/100002010000008000000080F5BABDC68D86EFF7.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page7">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Quelques Gains</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <list-header>
+          <p><span>Recentrer</span> sur le métier</p>
+          <p>Ré-attrbution des <span>couts</span></p>
+          <p>Amélioration de la <span>maitrise</span></p>
+          <p><span>Evolution</span> plus fluide, <span>maturité</span></p>
+          <p>Les TI <span>support</span> des métiers</p>
+        </list-header>
+      </ul>
+    </div>
+  </step>
+  <step id="page8">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Echanges</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%"/>
+    <div style="position: absolute;left:35%;top:23%"/>
+    <div style="position: absolute;left:65%;top:23%"/>
+    <div style="position: absolute;left:24%;top:73%">
+      <ul>
+        <list-header>
+          <p>Dominique DERRIER</p>
+          <p>d.derrier@linkbynet.com</p>
+        </list-header>
+      </ul>
+    </div>
+    <div style="position: absolute;left:35%;top:53%"/>
+    <div style="position: absolute;left:5%;top:53%"/>
+    <div style="position: absolute; left:0%;top:51%;width:35%" class="P2 term">
+      <img src="Pictures/100002010000017D0000017D633B196D9CEB3B9E.png" width="100%" height="100%"/>
+    </div>
+  </step>
+</impress>

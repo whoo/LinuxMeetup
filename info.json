@@ -11,6 +11,13 @@
     "abstract":"Présentation sur la sécurité lors du Linux Meetup.",
     "url":"Securite/#overview",
     "img":"tumb/Securite.png"
+  },
+  {
+    "name":"Impartition",
+    "abstract":"Présentation sur l'impartition/cloud pour FrancoGenie.",
+    "url":"Impartition/#overview",
+    "img":"tumb/Impartition.png"
   }
+
 ]
 }

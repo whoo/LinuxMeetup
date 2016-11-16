@@ -1,0 +1,67 @@
+.slide {
+	color: white;
+	background-image: url('style/blue.jpg');
+	background-color: white;
+	z-index:-10;
+	border-radius: 20px;
+	padding: 10px;
+	background-size: 820px 620px;
+	font-weight: bold;
+	font-size: 1.5em;
+
+}
+
+body { background-color: gray;  font-family: Arial, Helvetica;}
+
+.step {
+width:800px;
+height:600px;
+}
+
+.slide DIV:first-child {
+font-size: 2em;
+font-weight: bold;
+color: white;
+}
+
+.page7 DIV:not(:first-child),
+.page2 DIV:not(:first-child),
+.page3 DIV:not(:first-child) {
+	background-color: rgba(50,50,50, 0.5);
+	border-radius: 10px;
+	width:90%;
+}
+
+.present.page5 img,
+.present.page6 img
+{	animation: ani 5s forwards;}
+
+.page6 img,
+.page5 img
+{	animation: unani 5s forwards;}
+
+@-webkit-keyframes ani {
+	from {opacity: 0; width:100%}
+	to {opacity:1;width:100%;}
+}
+
+@-webkit-keyframes unani {
+	to {opacity: 0; width:100%}
+	from {opacity:1;width:100%;}
+}
+
+
+
+.page6.present span,
+.page7.present span {
+	font-weight: bold;
+	color:  red;
+       transition-delay:         2s;
+       -webkit-transform: rotate(-10deg);
+       -moz-transform:    rotate(-10deg);
+       -ms-transform:     rotate(-10deg);
+       -o-transform:      rotate(-10deg);
+transform:         rotate(-10deg);
+
+
+}
