@@ -1,0 +1,334 @@
+<impress>
+  <increment x="1000" y="1000" angle="20" length="4"/>
+  <title/>
+  <style/>
+  <step id="page1">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>OpenVpn</p>
+    </div>
+    <div style="position: absolute; left:0%;top:37%;width:46%" class="P1 term">
+      <img src="Pictures/10000201000001C2000001C2797AF19373DFB8C9.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute;left:56%;top:87%" class="P2 term">
+      <p>Dominique DERRIER - Linkbynet </p>
+    </div>
+    <div style="position: absolute; left:75%;top:88%;width:21%" class="P1 term">
+      <img src="Pictures/10000201000002D6000000C463FA6F962A757F35.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page2">
+    <div style="position: absolute;left:5%;top:3%"/>
+    <div style="position: absolute;left:5%;top:23%"/>
+    <div style="position: absolute; left:0%;top:0%;width:100%" class="P4 term">
+      <img src="Pictures/10000201000003AC000001E06DBA44C34A06C651.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:1%;top:24%;width:11%" class="P4 term">
+      <img src="Pictures/100002010000008C0000008C798E9EA03E7FCF63.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute;left:20%;top:69%" class="P2 term">
+      <p>Linux Junior <tab/><tab/>| Linux, CentOS, Apache, Mysql, Php, puppet</p>
+      <p>Linux Confirmé <tab/>| Virtualisation, Docker, Bash, Python</p>
+    </div>
+    <div style="position: absolute; left:0%;top:0%;width:99%" class="P4 term">
+      <img src="Pictures/10000201000003E8000000D73593A45075D47BF7.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page3">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Menu</p>
+    </div>
+    <div style="position: absolute; left:0%;top:0%;width:100%" class="P1 term">
+      <img src="Pictures/10000201000004CE0000020ACE78B955FBD49594.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute;left:2%;top:58%">
+      <ul>
+        <list-header>
+          <p>
+            <span>Menu</span>
+          </p>
+        </list-header>
+        <li>
+          <p>Tunnel c’est quoi</p>
+        </li>
+        <li>
+          <p>OpenVpn</p>
+        </li>
+        <li>
+          <p>Démo</p>
+        </li>
+      </ul>
+    </div>
+  </step>
+  <step id="page4">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Réseaux</p>
+    </div>
+    <div style="position: absolute; left:2%;top:32%;width:41%" class="P1 term">
+      <img src="Pictures/1000020100000194000001D3CC93F152923BF6DE.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:59%;top:32%;width:41%" class="P1 term">
+      <img src="Pictures/1000020100000194000001D3CC93F152923BF6DE.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:41%;top:60%;width:16%" class="P1 term">
+      <img src="Pictures/100002010000012C0000012C97220488B9074781.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page5">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Vpn</p>
+    </div>
+    <div style="position: absolute; left:2%;top:32%;width:41%" class="P1 term">
+      <img src="Pictures/1000020100000194000001D3CC93F152923BF6DE.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:59%;top:32%;width:41%" class="P1 term">
+      <img src="Pictures/1000020100000194000001D3CC93F152923BF6DE.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:29%;top:22%;width:16%" class="P1 term">
+      <img src="Pictures/1000020100000194000001D3CC93F152923BF6DE.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:52%;top:22%;width:16%" class="P1 term">
+      <img src="Pictures/1000020100000194000001D3CC93F152923BF6DE.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page6">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Des Vpns ?</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>PPTP</p>
+        </li>
+        <li>
+          <p>L2TP</p>
+        </li>
+        <li>
+          <p>IPSec </p>
+        </li>
+        <li>
+          <p>Ssl/Tls </p>
+        </li>
+        <li>
+          <p>Ssh </p>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute;left:52%;top:54%">
+      <ul>
+        <list-header>
+          <p>Openvpn</p>
+        </list-header>
+        <li>
+          <p>Multiplateforme</p>
+        </li>
+        <li>
+          <p>Opensource</p>
+        </li>
+        <li>
+          <p>Module</p>
+          <p/>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute; left:83%;top:54%;width:15%" class="P4 term">
+      <img src="Pictures/1000020100000096000000963CAA3B153F654B2D.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page7">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Ingrédients</p>
+    </div>
+    <div style="position: absolute; left:58%;top:60%;width:50%" class="P1 term">
+      <img src="Pictures/100002010000028E00000170C9AFD4CCA54C5599.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute;left:4%;top:24%" class="P6 term">
+      <p/>
+      <p>- Faire son schema réseau et son besoin</p>
+      <p>- Choisir les modules complémentaires</p>
+      <p>- Une dose PKI</p>
+      <p>- Fichiers de configuration</p>
+      <p/>
+      <p/>
+    </div>
+  </step>
+  <step id="page8">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Topologie de réseau</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>Plusieurs clients vers un ou plusieurs services</p>
+        </li>
+        <li>
+          <p>Plusieurs services vers plusieurs services</p>
+          <p>
+            <span/>
+          </p>
+          <p/>
+          <p/>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute; left:5%;top:56%;width:42%" class="P1 term">
+      <img src="Pictures/1000020100000338000001DA58D69FBBADC00D1A.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:54%;top:55%;width:39%" class="P1 term">
+      <img src="Pictures/10000201000003150000020652710CA4C149E4E9.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute;left:4%;top:39%" class="P7 term">
+      <ul>
+        <list-header>
+          <p>
+            <span>/!\ un tunnel fonctionne dans les deux sens, cela peut avoir des conséquences sur les communications.</span>
+          </p>
+        </list-header>
+      </ul>
+    </div>
+  </step>
+  <step id="page9">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Validation des utilisateurs</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>
+            <span>Les certificats</span>
+          </p>
+        </li>
+        <li>
+          <p>
+            <span>Les mots de passe via PAM</span>
+          </p>
+          <ul>
+            <li>
+              <p>L’authentification 2FA</p>
+            </li>
+            <li>
+              <p>Heures</p>
+            </li>
+            <li>
+              <p>(...)</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute; left:36%;top:49%;width:61%" class="P1 term">
+      <img src="Pictures/100002010000022600000146EBC06CEA2E71CC9E.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page10">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>PKI ?</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>Vous n’étiez pas la à ma dernière présentation ?</p>
+          <p/>
+        </li>
+        <li>
+          <p>Certificat Racine | CA:TRUE</p>
+        </li>
+        <li>
+          <p>Certificat de serveur | TLS Web Server Authentication</p>
+        </li>
+        <li>
+          <p>Certificats clients | TLS Web Client Authentication</p>
+          <p/>
+          <p>easyrsa init-pki</p>
+          <p>easyrsa build-ca</p>
+          <p>easyrsa</p>
+          <p><s/>./easyrsa build-server-full Server nopass</p>
+          <p>./easyrsa build-server-full Server nopass</p>
+          <p/>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute;left:70%;top:23%" class="P2 term">
+      <p>Vous avez un AD ? Pas de problème utilisez sa PKI</p>
+    </div>
+    <div style="position: absolute; left:69%;top:40%;width:27%" class="P4 term">
+      <img src="Pictures/1000020100000163000001A960E282780534AB79.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page11">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Configuration</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <list-header>
+          <p>port 8080</p>
+          <p>proto tcp</p>
+          <p>dev tun</p>
+          <p>ca /pki/ca.crt</p>
+          <p>cert /pki/issued/Sserver.crt</p>
+          <p>key /pki/private/Sserver.key</p>
+          <p>dh /pki/dh.pem</p>
+          <p/>
+          <p>server 10.8.0.0 255.255.255.0</p>
+          <p>ifconfig-pool-persist ipp.txt</p>
+          <p/>
+          <p>client-to-client</p>
+          <p/>
+          <p>comp-lzo</p>
+          <p>persist-key</p>
+          <p>persist-tun</p>
+          <p/>
+          <p>chroot /pki/conf/</p>
+          <p>client-config-dir ccd</p>
+          <p/>
+          <p>verb 3</p>
+        </list-header>
+      </ul>
+    </div>
+    <div style="position: absolute;left:51%;top:23%">
+      <ul>
+        <list-header>
+          <p>client</p>
+          <p>remote 192.168.2.45 8080</p>
+          <p>proto tcp</p>
+          <p>dev tun</p>
+          <p>ca /pki/ca.crt</p>
+          <p>pkcs12 "/pki/private/Dominique.p12"</p>
+          <p/>
+          <p>comp-lzo</p>
+          <p>persist-key</p>
+          <p>persist-tun</p>
+          <p/>
+          <p/>
+        </list-header>
+      </ul>
+    </div>
+    <div style="position: absolute;left:5%;top:53%"/>
+  </step>
+  <step id="page12">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Demo</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%"/>
+    <div style="position: absolute; left:0%;top:22%;width:100%" class="P1 term">
+      <img src="Pictures/100002010000025800000151AECB47DFE809EB3E.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page13">
+    <div style="position: absolute;left:5%;top:3%" class="P8 term">
+      <p>
+        <span>A vous de jouer</span>
+      </p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%"/>
+    <div style="position: absolute; left:0%;top:37%;width:46%" class="P1 term">
+      <img src="Pictures/10000201000001C2000001C2DC11F8C3B6371146.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute;left:70%;top:85%" class="P2 term">
+      <p>Dominique DERRIER <s/></p>
+    </div>
+    <div style="position: absolute; left:75%;top:88%;width:21%" class="P1 term">
+      <img src="Pictures/10000201000002D6000000C4CC585698FDC32B41.png" width="100%" height="100%"/>
+    </div>
+  </step>
+</impress>

@@ -1,0 +1,28 @@
+.slide {
+        background: url('bg/default.jpg') no-repeat;
+        color: white;
+        background-color: white;
+        border-radius: 20px;
+        padding: 10px;
+        background-size: 820px 620px;
+}
+
+
+#step-7 .P6.term { background-color: rgba(255, 0, 0, 0.5); width: 50%; }
+#step-8 .term { background-color: rgba(255, 0, 0, 0.5); width: 75%; border-radius: 25px;}
+
+#step-13 {color: black}
+
+#step-3 img { border-top-left-radius: 20px; border-top-right-radius: 20px; }
+#step-3 p {font-size: 1.5em;}
+#step-2 p {font-size: 1.5em;}
+
+#step-5,#step-4 { color: black }
+#step-11 { font-size: 1em; line-height:50%; }
+
+#step-11 div:nth-child(2) { background: rgba(0, 0, 0, 0.8); width: 40% }
+#step-11 div:nth-child(3) { background: rgba(0, 0, 0, 0.8); width: 40% }
+
+#step-13 { padding: 0px; margin: 0px;}
+#step-13 .P8.term { width:90%; left: 0%; } 
+#step-13 .P8.term P { background-color: rgba(255, 0, 0, 0.5); width: 100%;border-top-right-radius: 45px; border-bottom-right-radius: 45px; }
