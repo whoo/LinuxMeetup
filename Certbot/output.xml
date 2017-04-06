@@ -1,0 +1,226 @@
+<impress>
+  <increment x="1000" y="1000" angle="45" length="4"/>
+  <title/>
+  <style/>
+  <step id="page1">
+    <div style="position: absolute;left:5%;top:3%"/>
+    <div style="position: absolute;left:5%;top:23%" class="P1 term"/>
+  </step>
+  <step id="page2">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>
+        <span>Job de rêve</span>
+      </p>
+    </div>
+    <div style="position: absolute;left:5%;top:34%">
+      <ul>
+        <li>
+          <p>On cherche des </p>
+          <ul>
+            <li>
+              <p>administrateurs Linux :</p>
+            </li>
+            <li>
+              <p>administrateurs Réseaux :</p>
+            </li>
+          </ul>
+          <p>&gt; communication@linkbynet.com</p>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute; left:56%;top:15%;width:39%" class="P3 term">
+      <img src="Pictures/100002010000028C0000008D60C800BB6640ADE7.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:7%;top:64%;width:20%" class="P3 term">
+      <img src="Pictures/1000020100000182000001A757259EC98A8A2EAD.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page3">
+    <div style="position: absolute;left:5%;top:3%"/>
+    <div style="position: absolute;left:5%;top:23%"/>
+  </step>
+  <step id="page4">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Comment Ca marche</p>
+    </div>
+    <div style="position: absolute; left:1%;top:24%;width:96%" class="P3 term">
+      <img src="Pictures/10000201000002EA0000016C5F6AAC1FDD5645E5.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page5">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>X509 Certificat SSL</p>
+    </div>
+    <div style="position: absolute;left:5%;top:20%">
+      <ul>
+        <li>
+          <p>Distinguished Name</p>
+        </li>
+        <li>
+          <p>Validité</p>
+        </li>
+        <li>
+          <p>Issuer (emetteur de confiance).</p>
+        </li>
+        <li>
+          <p>Racine est installé dans vos navigateurs.</p>
+          <ul>
+            <list-header>
+              <p/>
+            </list-header>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute; left:52%;top:38%;width:46%" class="P3 term">
+      <img src="Pictures/1000020100000610000005DE22DC66326C3A3340.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page6">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Key, Csr, Crt</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <list-header>
+          <p>Demo …. c’est simple.</p>
+          <ul>
+            <li>
+              <p>Openssl</p>
+            </li>
+            <li>
+              <p>A quoi cela ressemble</p>
+            </li>
+            <li>
+              <p/>
+            </li>
+          </ul>
+        </list-header>
+      </ul>
+    </div>
+  </step>
+  <step id="page7">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>Type de Certificats</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>DV Certificates</p>
+          <ul>
+            <li>
+              <p>Vérification du whois dns, du site</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>OV Certificates</p>
+          <ul>
+            <li>
+              <p>Vérification de l’entreprise</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>EV Certificates</p>
+          <ul>
+            <li>
+              <p>Vérirication de l’entreprise, contact, documents légaux</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div style="position: absolute; left:81%;top:22%;width:11%" class="P3 term">
+      <img src="Pictures/10000201000000800000008021E906E24A79528A.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:81%;top:39%;width:10%" class="P3 term">
+      <img src="Pictures/100002010000037B0000037B33CBDBEC97207F7F.png" width="100%" height="100%"/>
+    </div>
+    <div style="position: absolute; left:80%;top:54%;width:13%" class="P3 term">
+      <img src="Pictures/10000201000000E0000000E49E126578B32D4E67.png" width="100%" height="100%"/>
+    </div>
+  </step>
+  <step id="page8">
+    <div style="position: absolute;left:5%;top:3%"/>
+    <div style="position: absolute;left:5%;top:23%"/>
+  </step>
+  <step id="page9">
+    <div style="position: absolute;left:20%;top:2%">
+      <p>Let’s encrypt | DV Certificat</p>
+    </div>
+    <div style="position: absolute;left:8%;top:33%">
+      <ul>
+        <li>
+          <p>Mode standalone</p>
+        </li>
+        <li>
+          <p>Mode serveur.</p>
+          <ul>
+            <li>
+              <p>Une requete</p>
+            </li>
+            <li>
+              <p>Le serveur valide en vérifiant l’url + challenge</p>
+            </li>
+            <li>
+              <p>Le serveur retourne un certificat</p>
+            </li>
+            <li>
+              <p>La magie, Le certificat racine de let’s encrypt est dans tous les navigateurs.</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </step>
+  <step id="page10">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>CertBot</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>https://certbot.eff.org/</p>
+        </li>
+      </ul>
+    </div>
+  </step>
+  <step id="page11">
+    <div style="position: absolute;left:5%;top:3%">
+      <p>+ Loin</p>
+    </div>
+    <div style="position: absolute;left:5%;top:23%">
+      <ul>
+        <li>
+          <p>Limitations :</p>
+          <ul>
+            <li>
+              <p>Les certificats ne sont valides que 90jours, il faut donc les renouveler.</p>
+            </li>
+            <li>
+              <p><span>Attention :</span> on peut mettre des ssl sur n’importe quel domaine. (BMO.mx)</p>
+              <p/>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>Sni : Server Name Indication</p>
+          <ul>
+            <li>
+              <p>Utilisation de Alternate Name pour définir les autres noms de domaine.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>Autres services</p>
+          <ul>
+            <li>
+              <p>C’est un certificat x509, vous pouvez l’utiliser pour d’autres services utilisant TLS : Imaps/ftps/pops/…</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </step>
+</impress>

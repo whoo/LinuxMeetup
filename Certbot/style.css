@@ -1,0 +1,22 @@
+body { background-color: gray;  font-family: Arial, Helvetica;}
+.slide {
+	background: url("Pictures/bg/bg-black.jpg") no-repeat;
+	color: white;
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+	background-size: 820px 620px;
+}
+.step {
+width:800px;
+height:600px;
+
+}
+.slide DIV:first-child {
+font-size: 3em;
+}
+#step-2,#step-5 {
+	color: green;
+	background: url("Pictures/bg/bg-black.jpg") no-repeat;
+	background-size: 820px 620px;
+}
